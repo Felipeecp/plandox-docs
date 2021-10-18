@@ -2,34 +2,18 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# PlanDox Software
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Consiste em um software de desktop orientado a planilhas eletrônicas, implementando técnicas de planejamento de experimentos, análise da variância, gráficos de resíduos e gráficos de superfície de resposta. O software também implementa métodos de aprendizagem de máquina como método alternativo para predição de qualidade de biodiesel, e de sua otimização por meio da função desejabilidade com o uso dos modelos preditivos desenvolvidos, sendo então utilizado para o controle da qualidade do biodiesel.
 
-## Getting Started
+## Funcionalidades
 
-Get started by **creating a new site**.
+### Planejamento de Experimentos
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Possibilidade de aplicar téctinicas de planejamentos de experimentos de primeira ordem, segunda ordem e planejamento de misturas.
 
-## Generate a new site
+### Aprendizado de máquinas
 
-Generate a new Docusaurus site using the **classic template**:
+Possibidade de aplicar diferentes algoritmos de regressão e também algoritmo de redes neurais
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+### Otimização

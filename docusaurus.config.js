@@ -37,6 +37,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ],
   ],
 
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -53,7 +54,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Documentação',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs-api', label: 'API', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'http://www.darti.ufma.br',
             label: 'DARTi Lab',
@@ -70,7 +72,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
-              },
+              },{
+                label:'API',
+                to: '/api/introduction.md'
+              }
             ],
           },
           {
