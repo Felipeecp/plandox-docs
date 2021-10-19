@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Regressão
+# Regressões
 
 Detalhes do que existem em comum entre os tipos de regressão
 
