@@ -14,6 +14,30 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   organizationName: 'DARTi Lab', // Usually your GitHub org/user name.
   projectName: 'plandox-docs', // Usually your repo name.
 
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-api',
+        path: 'docs-api',
+        routeBasePath: 'docs-api',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'docs-system',
+    //     path: 'docs-system',
+    //     routeBasePath: 'docs-system',
+    //     sidebarPath: require.resolve('./sidebars.js'),
+    //   }, 
+    // ],
+],
+
+
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -54,7 +78,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Documentação',
           },
-          {to: '/docs-api', label: 'API', position: 'left'},
+          {
+            to: '/docs-api/introduction',
+            label: 'API',
+            position: 'left',
+            activeBaseRegex:'/docs-api/',
+          },
+          //{to: '/docs-api', label: 'API', position: 'left'},
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'http://www.darti.ufma.br',
