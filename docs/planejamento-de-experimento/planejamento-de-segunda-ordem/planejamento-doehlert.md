@@ -1,7 +1,7 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Planejamento de 1ª ordem
+# Planejamento Doehlert
 
 Detalhes de como funciona essa funcionalidade no software
