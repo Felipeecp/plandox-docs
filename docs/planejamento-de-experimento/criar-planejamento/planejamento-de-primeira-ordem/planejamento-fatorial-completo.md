@@ -59,7 +59,7 @@ width= "350px"
 />
 
 Na matriz, temos os níveis codificados em -1 e +1, e as quatro linhas relativas aos quatro experimentos. No fatorial completo, é feito todas as combinações dos níveis dos fatores de controle, não havendo repetição das combinações. Porém, é possível considerar a replicação do planejamento. Ao adotar o número de réplicas igual a 2, teríamos 8 experimentos.
-Para o caso onde consideram-se as réplicas, a quantidade de experimentos pode ser calculada por: N = n2^k
+Para o caso onde consideram-se as réplicas, a quantidade de experimentos pode ser calculada por: $N = n2^k$
 
 Como podemos observar, na coluna do Fator 1, o níveis -1 e +1 correspondem às temperaturas de 40°C e 60°, respectivamente. Já na coluna do Fator 2, os níveis -1 e +1 correspondem aos catalisadores A e B, respectivamente.
 

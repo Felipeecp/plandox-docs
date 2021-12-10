@@ -27,7 +27,7 @@ Os tipos de planejamentos podem ser classificados em:
 
 ## Centróide Simplex
 
-Para o planejamento Simplex-Centróide com (q) componentes, temos que número de experimentos (N) será: N= 2^q - 1, para (q) misturas puras. Portanto, para o exemplo ilustrado com 3 componentes, temos que o número de experimentos N será igual a 7, composto por três misturas puras, duas binárias e uma ternária, conforme pode ser ilustrado na Figura 1.
+Para o planejamento Simplex-Centróide com (q) componentes, temos que número de experimentos (N) será: $N= 2^q - 1$, para (q) misturas puras. Portanto, para o exemplo ilustrado com 3 componentes, temos que o número de experimentos N será igual a 7, composto por três misturas puras, duas binárias e uma ternária, conforme pode ser ilustrado na Figura 1.
 
 <img
   src={require('./pe_1.jpg').default}
