@@ -1,6 +1,8 @@
 ---
 sidebar_position: 4
 ---
+# Planejamento de Mistura
+
 ### O que é ?
 
 Planejamento de mistura é o tipo de planejamento de superfície de resposta em que o produto sob investigação é feito de vários componentes e ingredientes. 
